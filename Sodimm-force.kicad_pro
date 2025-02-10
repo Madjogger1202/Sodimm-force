@@ -580,10 +580,6 @@
       "Корневой лист"
     ],
     [
-      "cbe8ef38-8d09-4260-a355-3d9a3a58acbd",
-      "Sodimm conn"
-    ],
-    [
       "80cb261a-71dc-4751-a2b6-2fe7421285af",
       "Power"
     ],
@@ -597,15 +593,11 @@
     ],
     [
       "b77dacbf-00af-4f5f-9237-b8c7fef69de9",
-      "Display and interface"
+      "Interface and ROM"
     ],
     [
       "526c7efe-cb70-49a2-a6ca-c3db3e12ecbe",
       "HDMI + usb"
-    ],
-    [
-      "b477a223-2038-468b-bf4a-9a721a38140f",
-      "SD card and EEPROM"
     ]
   ],
   "text_variables": {}

@@ -1,0 +1,10 @@
+# Игнорируем файлы автосохранения KiCad
+*_autosave-*.kicad_sch
+~*.kicad_sch.lck
+empty.kicad_wks
+
+# Игнорируем бэкапы KiCad
+Sodimm-force-backups/
+
+# Игнорируем все ZIP-файлы бэкапов
+*.zip
