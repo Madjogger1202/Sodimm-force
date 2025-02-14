@@ -592,12 +592,8 @@
       "DDR"
     ],
     [
-      "b77dacbf-00af-4f5f-9237-b8c7fef69de9",
-      "Interface and ROM"
-    ],
-    [
       "526c7efe-cb70-49a2-a6ca-c3db3e12ecbe",
-      "HDMI + usb"
+      "HDMI + usb + interface"
     ]
   ],
   "text_variables": {}

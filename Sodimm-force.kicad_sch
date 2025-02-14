@@ -18711,28 +18711,6 @@
 	)
 	(polyline
 		(pts
-			(xy 240.03 351.79) (xy 248.92 351.79)
-		)
-		(stroke
-			(width 2.54)
-			(type default)
-			(color 255 253 3 1)
-		)
-		(uuid "202cf8a0-bf12-4f36-8ac6-82f057f866dc")
-	)
-	(polyline
-		(pts
-			(xy 248.92 373.38) (xy 248.92 364.49)
-		)
-		(stroke
-			(width 2.54)
-			(type default)
-			(color 255 253 3 1)
-		)
-		(uuid "26da27a4-8b58-4d3b-a8d3-53f09bbc80fe")
-	)
-	(polyline
-		(pts
 			(xy 201.93 373.38) (xy 201.93 360.68)
 		)
 		(stroke
@@ -18752,17 +18730,6 @@
 			(color 255 253 3 1)
 		)
 		(uuid "4168417d-1dd4-4c75-9379-35bbfb6f7f34")
-	)
-	(polyline
-		(pts
-			(xy 248.92 364.49) (xy 248.92 351.79)
-		)
-		(stroke
-			(width 2.54)
-			(type default)
-			(color 255 253 3 1)
-		)
-		(uuid "9895db4f-15ee-4e22-9f17-bd24cb6532b7")
 	)
 	(polyline
 		(pts
@@ -22187,7 +22154,7 @@
 			(color 184 255 172 1.0000)
 		)
 		(uuid "526c7efe-cb70-49a2-a6ca-c3db3e12ecbe")
-		(property "Sheetname" "HDMI + usb"
+		(property "Sheetname" "HDMI + usb + interface"
 			(at 175.26 372.6684 0)
 			(effects
 				(font
@@ -22208,7 +22175,7 @@
 		(instances
 			(project "Sodimm-force"
 				(path "/b3673bfd-24d8-4789-b63c-c3654dc2bb6e"
-					(page "7")
+					(page "5")
 				)
 			)
 		)
@@ -22247,7 +22214,7 @@
 		(instances
 			(project "Sodimm-force"
 				(path "/b3673bfd-24d8-4789-b63c-c3654dc2bb6e"
-					(page "4")
+					(page "3")
 				)
 			)
 		)
@@ -22285,45 +22252,7 @@
 		(instances
 			(project "Sodimm-force"
 				(path "/b3673bfd-24d8-4789-b63c-c3654dc2bb6e"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 224.79 373.38)
-		(size 40.64 26.67)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 255 135 199 1.0000)
-		)
-		(uuid "b77dacbf-00af-4f5f-9237-b8c7fef69de9")
-		(property "Sheetname" "Interface and ROM"
-			(at 224.79 372.6684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Display and interface.kicad_sch"
-			(at 224.79 400.6346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Sodimm-force"
-				(path "/b3673bfd-24d8-4789-b63c-c3654dc2bb6e"
-					(page "6")
+					(page "2")
 				)
 			)
 		)
@@ -22361,7 +22290,7 @@
 		(instances
 			(project "Sodimm-force"
 				(path "/b3673bfd-24d8-4789-b63c-c3654dc2bb6e"
-					(page "5")
+					(page "4")
 				)
 			)
 		)
