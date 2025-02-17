@@ -6107,6 +6107,12 @@
 		(uuid "3ea12869-fabc-40b0-8619-cfc15a0f98c9")
 	)
 	(junction
+		(at 369.57 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43a0b31a-62b7-434d-859e-751789225dd1")
+	)
+	(junction
 		(at 260.35 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6884,6 +6890,16 @@
 	)
 	(wire
 		(pts
+			(xy 369.57 147.32) (xy 369.57 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20bc755a-5aef-4711-a202-740420b8b9cb")
+	)
+	(wire
+		(pts
 			(xy 254 228.6) (xy 260.35 228.6)
 		)
 		(stroke
@@ -6931,6 +6947,16 @@
 			(type default)
 		)
 		(uuid "26a09dd8-40e6-4ad0-b251-fed358d376c2")
+	)
+	(wire
+		(pts
+			(xy 367.03 147.32) (xy 369.57 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "274dc307-6582-4cac-94ab-cd8bc1f81985")
 	)
 	(wire
 		(pts
@@ -7421,6 +7447,16 @@
 			(type default)
 		)
 		(uuid "50c46f98-861c-44db-9d27-55e543cf2682")
+	)
+	(wire
+		(pts
+			(xy 381 146.05) (xy 381 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51182e13-ce17-4b39-ab8d-19622c4cd889")
 	)
 	(wire
 		(pts
@@ -8024,16 +8060,6 @@
 	)
 	(wire
 		(pts
-			(xy 381 148.59) (xy 381 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81acc961-2715-4615-9e14-dc1858d20a18")
-	)
-	(wire
-		(pts
 			(xy 367.03 78.74) (xy 369.57 78.74)
 		)
 		(stroke
@@ -8321,16 +8347,6 @@
 			(type default)
 		)
 		(uuid "9e8e0284-dc28-4e20-821a-f4534f50b976")
-	)
-	(wire
-		(pts
-			(xy 381 147.32) (xy 377.19 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fc22746-6449-4bd7-a44c-8737286ba03d")
 	)
 	(wire
 		(pts
@@ -8744,6 +8760,16 @@
 	)
 	(wire
 		(pts
+			(xy 381 144.78) (xy 377.19 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c324da95-631a-43a3-b4d1-aac37f78b7e5")
+	)
+	(wire
+		(pts
 			(xy 66.04 180.34) (xy 77.47 180.34)
 		)
 		(stroke
@@ -9014,6 +9040,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 144.78) (xy 369.57 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db4579d5-fda4-418b-960c-9ed416c0de87")
+	)
+	(wire
+		(pts
 			(xy 80.01 222.25) (xy 80.01 220.98)
 		)
 		(stroke
@@ -9081,16 +9117,6 @@
 			(type default)
 		)
 		(uuid "e32f5d6d-e439-4284-9f0a-9f40dc369333")
-	)
-	(wire
-		(pts
-			(xy 367.03 147.32) (xy 369.57 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e38d14ec-cb76-4140-89ca-0e66541e732e")
 	)
 	(wire
 		(pts
@@ -9241,16 +9267,6 @@
 			(type default)
 		)
 		(uuid "f317ac74-09e6-464d-b7da-d19d04b6c841")
-	)
-	(wire
-		(pts
-			(xy 367.03 144.78) (xy 369.57 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f428d262-b927-4205-b976-32b44e3513ed")
 	)
 	(wire
 		(pts
@@ -16329,28 +16345,6 @@
 			)
 		)
 	)
-	(global_label "SDQ31"
-		(shape input)
-		(at 369.57 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f7476133-0d3b-4c86-a294-7731899d98f9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 375.5413 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDQ30"
 		(shape input)
 		(at 369.57 139.7 0)
@@ -19665,6 +19659,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 381 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e7efc8b-c3e7-4137-a6d8-5b57d1ab656b")
+		(property "Reference" "#PWR0135"
+			(at 381 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 381 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 381 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 381 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47937d6f-f36a-4afb-8270-c6d10c12d8a3")
+		)
+		(instances
+			(project "Sodimm-force"
+				(path "/b3673bfd-24d8-4789-b63c-c3654dc2bb6e/7bdf4494-d64d-40da-b2e3-dae4f35a6c46"
+					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V8")
 		(at 339.09 201.93 0)
 		(unit 1)
@@ -20400,73 +20461,6 @@
 			(project "Sodimm-force"
 				(path "/b3673bfd-24d8-4789-b63c-c3654dc2bb6e/7bdf4494-d64d-40da-b2e3-dae4f35a6c46"
 					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 381 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7653405f-de20-4199-9d6b-13bc5c009256")
-		(property "Reference" "#PWR0135"
-			(at 381 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Earth"
-			(at 381 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 381 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 381 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 381 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "027dc94f-0199-499c-b9de-3ecf4be4a58c")
-		)
-		(instances
-			(project "Sodimm-force"
-				(path "/b3673bfd-24d8-4789-b63c-c3654dc2bb6e/7bdf4494-d64d-40da-b2e3-dae4f35a6c46"
-					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -22867,6 +22861,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 373.38 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a24d75c6-eacb-477b-8339-8a6ddde6958f")
+		(property "Reference" "R31"
+			(at 369.316 145.796 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20K"
+			(at 377.444 145.796 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 373.38 146.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 373.38 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d91acd7-fe5f-463f-ad14-cf2ef294c332")
+		)
+		(pin "2"
+			(uuid "83360108-277b-413d-bfb6-4238fe8c7f2f")
+		)
+		(instances
+			(project "Sodimm-force"
+				(path "/b3673bfd-24d8-4789-b63c-c3654dc2bb6e/7bdf4494-d64d-40da-b2e3-dae4f35a6c46"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V8")
 		(at 295.91 201.93 0)
 		(unit 1)
@@ -23200,73 +23261,6 @@
 			(project "Sodimm-force"
 				(path "/b3673bfd-24d8-4789-b63c-c3654dc2bb6e/7bdf4494-d64d-40da-b2e3-dae4f35a6c46"
 					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 373.38 147.32 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af16b258-950b-4c50-a2dd-710e28ca43c0")
-		(property "Reference" "R31"
-			(at 369.316 148.336 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20K"
-			(at 377.444 148.336 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 373.38 149.098 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 373.38 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 373.38 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2c568a6-a47c-4deb-b86b-de76e6b22d13")
-		)
-		(pin "2"
-			(uuid "d2f979a3-b20b-4b2c-8a10-9d06e6524924")
-		)
-		(instances
-			(project "Sodimm-force"
-				(path "/b3673bfd-24d8-4789-b63c-c3654dc2bb6e/7bdf4494-d64d-40da-b2e3-dae4f35a6c46"
-					(reference "R31")
 					(unit 1)
 				)
 			)

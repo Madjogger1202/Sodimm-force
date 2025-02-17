@@ -13850,16 +13850,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 143.51) (xy 106.68 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "612175f4-fb72-4e33-8223-7733d6f2099f")
-	)
-	(wire
-		(pts
 			(xy 288.29 130.81) (xy 302.26 130.81)
 		)
 		(stroke
@@ -14417,6 +14407,16 @@
 			(type default)
 		)
 		(uuid "985b18cf-3f54-4b9d-b216-8ecf8224062e")
+	)
+	(wire
+		(pts
+			(xy 109.22 143.51) (xy 106.68 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9980d62e-e161-417f-bf7b-d657dc711b45")
 	)
 	(wire
 		(pts
@@ -18209,7 +18209,7 @@
 			)
 		)
 	)
-	(global_label "SDQMO"
+	(global_label "SDQM0"
 		(shape input)
 		(at 152.4 130.81 0)
 		(fields_autoplaced yes)
@@ -18671,7 +18671,7 @@
 			)
 		)
 	)
-	(global_label "SDQSON"
+	(global_label "SDQS0N"
 		(shape input)
 		(at 152.4 181.61 0)
 		(fields_autoplaced yes)
@@ -18683,7 +18683,7 @@
 		)
 		(uuid "cf5f2a93-2889-4f4d-80b8-a827aa4138d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.8561 181.61 0)
+			(at 162.9447 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)

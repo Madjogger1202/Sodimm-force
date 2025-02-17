@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -113,7 +119,7 @@
         "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.102,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -123,8 +129,8 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_annular_width": 0.05,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -171,7 +177,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -198,7 +206,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -416,7 +429,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -438,8 +451,8 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.127,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.102,
+        "diff_pair_gap": 0.102,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -452,19 +465,381 @@
         "via_diameter": 0.4,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.102,
+        "diff_pair_gap": 0.102,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "DDR_signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.102,
+        "via_diameter": 0.4,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.102,
+        "diff_pair_gap": 0.102,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "HDMI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.127,
+        "via_diameter": 0.4,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.102,
+        "diff_pair_gap": 0.102,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.127,
+        "via_diameter": 0.4,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.102,
+        "diff_pair_gap": 0.102,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.127,
+        "via_diameter": 0.4,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
       "version": 3
     },
     "net_colors": {
-      "SDQ0": "rgb(255, 245, 0)",
-      "SDQ1": "rgb(255, 213, 0)",
-      "SDQ10": "rgb(255, 114, 193)",
-      "SDQ11": "rgb(171, 255, 133)"
+      "SA0": "rgb(0, 255, 255)",
+      "SA1": "rgb(0, 255, 255)",
+      "SA2": "rgb(0, 255, 255)",
+      "SA3": "rgb(0, 255, 255)",
+      "SA4": "rgb(0, 255, 255)",
+      "SA5": "rgb(0, 255, 255)",
+      "SCKE0": "rgb(0, 194, 0)",
+      "SCKE1": "rgb(0, 194, 0)",
+      "SCKN": "rgb(0, 194, 0)",
+      "SCKP": "rgb(0, 194, 0)",
+      "SCS0": "rgb(194, 0, 194)",
+      "SCS1": "rgb(194, 0, 194)",
+      "SDQ0": "rgb(255, 255, 0)",
+      "SDQ1": "rgb(255, 255, 0)",
+      "SDQ10": "rgb(255, 255, 0)",
+      "SDQ11": "rgb(255, 255, 0)",
+      "SDQ12": "rgb(255, 255, 0)",
+      "SDQ13": "rgb(255, 255, 0)",
+      "SDQ14": "rgb(255, 255, 0)",
+      "SDQ15": "rgb(255, 255, 0)",
+      "SDQ16": "rgb(255, 255, 0)",
+      "SDQ17": "rgb(255, 255, 0)",
+      "SDQ18": "rgb(255, 255, 0)",
+      "SDQ19": "rgb(255, 255, 0)",
+      "SDQ2": "rgb(255, 255, 0)",
+      "SDQ20": "rgb(255, 255, 0)",
+      "SDQ21": "rgb(255, 255, 0)",
+      "SDQ22": "rgb(255, 255, 0)",
+      "SDQ23": "rgb(255, 255, 0)",
+      "SDQ24": "rgb(255, 255, 0)",
+      "SDQ25": "rgb(255, 255, 0)",
+      "SDQ26": "rgb(255, 255, 0)",
+      "SDQ27": "rgb(255, 255, 0)",
+      "SDQ28": "rgb(255, 255, 0)",
+      "SDQ29": "rgb(255, 255, 0)",
+      "SDQ3": "rgb(255, 255, 0)",
+      "SDQ30": "rgb(255, 255, 0)",
+      "SDQ31": "rgb(255, 255, 0)",
+      "SDQ4": "rgb(255, 255, 0)",
+      "SDQ5": "rgb(255, 255, 0)",
+      "SDQ6": "rgb(255, 255, 0)",
+      "SDQ7": "rgb(255, 255, 0)",
+      "SDQ8": "rgb(255, 255, 0)",
+      "SDQ9": "rgb(255, 255, 0)",
+      "SDQM0": "rgb(0, 0, 255)",
+      "SDQM1": "rgb(0, 0, 255)",
+      "SDQM2": "rgb(0, 0, 255)",
+      "SDQM3": "rgb(0, 0, 255)",
+      "SDQS0N": "rgb(255, 0, 255)",
+      "SDQS0P": "rgb(255, 0, 255)",
+      "SDQS1N": "rgb(255, 0, 255)",
+      "SDQS1P": "rgb(255, 0, 255)",
+      "SDQS2N": "rgb(255, 0, 255)",
+      "SDQS2P": "rgb(255, 0, 255)",
+      "SDQS3N": "rgb(255, 0, 255)",
+      "SDQS3P": "rgb(255, 0, 255)",
+      "SRST": "rgb(0, 255, 255)"
     },
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "DDR_signal",
+        "pattern": "S"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SRST"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SCS0"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SCKE0"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SCKP"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SCKN"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SA0"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SA1"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SA2"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SA3"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SA4"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SA5"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SCKE1"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SCS1"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQM2"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQM3"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ22"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ20"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ23"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ21"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ17"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ18"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ16"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ19"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ27"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ28"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ31"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ29"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ26"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ25"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ24"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ30"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQS2N"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQS3N"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQS2P"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQS3P"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQM1"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQMO"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ13"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ10"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ9"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ12"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ14"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ11"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ8"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ15"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ5"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ7"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ2"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ0"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ1"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ4"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ3"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQ6"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQS1N"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQSON"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQS1P"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQS0P"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQM0"
+      },
+      {
+        "netclass": "DDR_signal",
+        "pattern": "SDQS0N"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -532,13 +907,145 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Описание",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Обозначение"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
