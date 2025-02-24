@@ -237,7 +237,7 @@
       "unconnected-(J1-Pad37)",
       "P15"
     ],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 2,
     "opacity": {
       "images": 0.6,
