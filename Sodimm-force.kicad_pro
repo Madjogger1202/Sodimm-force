@@ -189,7 +189,11 @@
       "track_widths": [
         0.0,
         0.08,
-        0.12
+        0.1016,
+        0.12,
+        0.1524,
+        0.2,
+        0.4
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -529,7 +533,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.08,
+        "clearance": 0.1016,
         "diff_pair_gap": 0.102,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -539,7 +543,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
+        "track_width": 0.3,
         "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
@@ -559,6 +563,23 @@
         "track_width": 0.104648,
         "via_diameter": 0.4,
         "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.1232,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "ethernet",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1232,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -626,7 +647,29 @@
     },
     "netclass_assignments": {
       "AVCC": [
-        "HDMI"
+        "HDMI",
+        "Power"
+      ],
+      "DCDCE": [
+        "Power"
+      ],
+      "EPHY-RTX": [
+        "ethernet"
+      ],
+      "EPHY-RXN": [
+        "ethernet"
+      ],
+      "EPHY-RXP": [
+        "ethernet"
+      ],
+      "EPHY-TXN": [
+        "ethernet"
+      ],
+      "EPHY-TXP": [
+        "ethernet"
+      ],
+      "Earth": [
+        "Power"
       ],
       "HCEC": [
         "HDMI"
@@ -687,6 +730,15 @@
       ],
       "USB3-DP": [
         "USB"
+      ],
+      "VCC-5V": [
+        "Power"
+      ],
+      "VCC-IO": [
+        "Power"
+      ],
+      "VDD-GPU": [
+        "Power"
       ]
     },
     "netclass_patterns": [

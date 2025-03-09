@@ -22668,7 +22668,7 @@
 			)
 		)
 	)
-	(global_label "P15"
+	(global_label "PI15"
 		(shape input)
 		(at 198.12 102.87 180)
 		(fields_autoplaced yes)
@@ -22680,7 +22680,7 @@
 		)
 		(uuid "4603a84e-8f00-4f7c-8644-e179280f8785")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.5358 102.87 0)
+			(at 193.104 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
