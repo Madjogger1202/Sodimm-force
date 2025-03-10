@@ -543,7 +543,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.1016,
         "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
