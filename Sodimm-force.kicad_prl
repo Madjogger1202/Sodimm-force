@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 12,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [
@@ -281,7 +281,11 @@
       "unconnected-(J1-Pad35)",
       "unconnected-(J1-Pad37)",
       "USB3-DN",
-      "USB2-DN"
+      "USB2-DN",
+      "unconnected-(J1-Pad71)",
+      "unconnected-(J1-Pad61)",
+      "unconnected-(J1-Pad53)",
+      "unconnected-(J1-Pad65)"
     ],
     "high_contrast_mode": 1,
     "net_color_mode": 2,
@@ -328,7 +332,7 @@
       "shapes"
     ],
     "visible_layers": "00000000_00000000_0fffffff_ffffffff",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "git": {
     "repo_password": "",
