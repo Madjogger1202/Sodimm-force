@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 5,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [
@@ -287,7 +287,7 @@
       "unconnected-(J1-Pad53)",
       "unconnected-(J1-Pad65)"
     ],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 2,
     "opacity": {
       "images": 0.6,
@@ -382,22 +382,22 @@
       15
     ],
     "col_widths": [
-      186,
-      171,
-      114,
-      122,
-      137,
-      125,
-      118,
-      106,
-      112,
-      112,
-      112,
-      112,
-      112,
-      112,
-      112,
-      112
+      222,
+      207,
+      136,
+      142,
+      158,
+      145,
+      136,
+      123,
+      136,
+      136,
+      136,
+      136,
+      136,
+      136,
+      136,
+      136
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
