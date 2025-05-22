@@ -7666,7 +7666,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 163.83) (xy 285.75 162.56)
+			(xy 284.48 163.83) (xy 284.48 162.56)
 		)
 		(stroke
 			(width 0)
@@ -7816,7 +7816,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 142.24) (xy 285.75 142.24)
+			(xy 292.1 142.24) (xy 284.48 142.24)
 		)
 		(stroke
 			(width 0)
@@ -9245,7 +9245,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05dbd736-8bb9-4cea-935e-e7229175d2fe")
-		(property "Reference" "U3"
+		(property "Reference" "DD7"
 			(at 91.694 134.874 0)
 			(effects
 				(font
@@ -9317,7 +9317,7 @@
 		(instances
 			(project "Sodimm-force"
 				(path "/b3673bfd-24d8-4789-b63c-c3654dc2bb6e/526c7efe-cb70-49a2-a6ca-c3db3e12ecbe"
-					(reference "U3")
+					(reference "DD7")
 					(unit 1)
 				)
 			)
@@ -12102,7 +12102,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 114.554 63.246 0)
+			(at 114.3 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12957,7 +12957,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 285.75 163.83 0)
+		(at 284.48 163.83 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12967,7 +12967,7 @@
 		(fields_autoplaced yes)
 		(uuid "8da09455-71d1-429f-a89e-195f6834e52a")
 		(property "Reference" "#PWR0178"
-			(at 285.75 170.18 0)
+			(at 284.48 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12976,7 +12976,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 285.75 168.91 0)
+			(at 284.48 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12985,7 +12985,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 285.75 163.83 0)
+			(at 284.48 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12994,7 +12994,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 285.75 163.83 0)
+			(at 284.48 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13003,7 +13003,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 285.75 163.83 0)
+			(at 284.48 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13235,7 +13235,7 @@
 		(dnp no)
 		(uuid "984aa130-70ca-466a-a3c6-24b13e0dd12a")
 		(property "Reference" "R36"
-			(at 109.474 61.722 0)
+			(at 109.22 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13243,7 +13243,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 109.474 63.246 0)
+			(at 109.22 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14345,9 +14345,10 @@
 			)
 		)
 		(property "Value" "VDD33"
-			(at 307.594 232.41 0)
+			(at 306.324 232.41 90)
 			(effects
 				(font
+					(face "GOST type A")
 					(size 1.27 1.27)
 				)
 			)
@@ -14593,7 +14594,7 @@
 	)
 	(symbol
 		(lib_id "ESD:AZ5825-01F")
-		(at 285.75 142.24 90)
+		(at 284.48 142.24 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14602,7 +14603,7 @@
 		(dnp no)
 		(uuid "db152899-7b9c-41ed-b27a-dc62aac38d60")
 		(property "Reference" "D3"
-			(at 282.448 149.86 90)
+			(at 281.178 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14610,7 +14611,7 @@
 			)
 		)
 		(property "Value" "AZ5825-01F"
-			(at 279.908 154.178 90)
+			(at 278.638 154.178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14618,7 +14619,7 @@
 			)
 		)
 		(property "Footprint" "ESD:AZ582501F"
-			(at 379.4 154.94 0)
+			(at 378.13 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14628,7 +14629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 381 138.684 0)
+			(at 379.73 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14638,7 +14639,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 289.306 143.51 0)
+			(at 288.036 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14647,7 +14648,7 @@
 			)
 		)
 		(property "Height" " "
-			(at 679.4 154.94 0)
+			(at 678.13 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14657,7 +14658,7 @@
 			)
 		)
 		(property "Manufacturer_Name" " "
-			(at 779.4 154.94 0)
+			(at 778.13 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14667,7 +14668,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" " "
-			(at 879.4 154.94 0)
+			(at 878.13 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14677,7 +14678,7 @@
 			)
 		)
 		(property "Mouser Part Number" " "
-			(at 979.4 154.94 0)
+			(at 978.13 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14687,7 +14688,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" " "
-			(at 1079.4 154.94 0)
+			(at 1078.13 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14697,7 +14698,7 @@
 			)
 		)
 		(property "Arrow Part Number" " "
-			(at 1179.4 154.94 0)
+			(at 1178.13 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14707,7 +14708,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 1279.4 154.94 0)
+			(at 1278.13 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -7025,7 +7025,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 134.62) (xy 125.73 134.62)
+			(xy 139.7 134.62) (xy 125.73 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7315,7 +7315,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 138.43) (xy 196.85 138.43)
+			(xy 181.61 138.43) (xy 196.85 138.43)
 		)
 		(stroke
 			(width 0)
@@ -7945,7 +7945,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 113.03) (xy 196.85 113.03)
+			(xy 181.61 113.03) (xy 196.85 113.03)
 		)
 		(stroke
 			(width 0)
@@ -8165,7 +8165,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 125.73) (xy 196.85 125.73)
+			(xy 181.61 125.73) (xy 196.85 125.73)
 		)
 		(stroke
 			(width 0)
@@ -8675,7 +8675,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 120.65) (xy 264.16 120.65)
+			(xy 247.65 120.65) (xy 265.43 120.65)
 		)
 		(stroke
 			(width 0)
@@ -8855,7 +8855,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 180.34) (xy 77.47 180.34)
+			(xy 60.96 180.34) (xy 77.47 180.34)
 		)
 		(stroke
 			(width 0)
@@ -9005,7 +9005,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 95.25) (xy 264.16 95.25)
+			(xy 247.65 95.25) (xy 270.51 95.25)
 		)
 		(stroke
 			(width 0)
@@ -12384,7 +12384,25 @@
 			"AHUAegBrAG4AYQA5AEoAMQBPAHoAVQA0AHoAYQBEAFoAdQBNAHgAWAB0AE4AQQBSAGQAMgBZAFIA"
 			"YgBpAHYALwAvAEMAcQB6AHIARABpAE4ALwA1AGsAaABlAEgASgBqAEsAcwA3AFEAdQBEAEMAbwAz"
 			"AC8ASAAxAGkAMABjADEAZQBCAEgATwBGAG0AbABCADMAWgA4AEwAbAB4AGIAQQByAG0AZABSADYA"
-			"bwBpAEwAWQ=="
+			"bwBpAEwAWQCO7LVXAMcGgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIzss1cAyAaAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAguyxVwDJBoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA7L9XAMoGgAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIbsvVcAywaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhOy7"
+			"VwDMBoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACa7LlXAM0GgAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAJjsp1cAzgaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAnuylVwDPBoAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAACc7KNXANAGgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJLsoVcA0QaAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAkOyvVwDSBoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACW7K1XANMG"
+			"gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJTsq1cA1AaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"6uypVwDVBoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADo7NdXANYGgAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAO7s1VcA1waAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA7OzTVwDYBoAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAADi7NFXANkGgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODs31cA2gaAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAA5uzdVwDbBoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADk7NtX"
+			"ANwGgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPrs2VcA3QaAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAA+OzHVwDeBoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+7MVXAN8GgAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAPzsw1cA4AaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8uzBVwDhBoAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAADw7M9XAOIGgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPbszVcA4waA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9OzLVwDkBoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADK"
+			"7MlXAOUGgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjs91cA5gaAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAzg=="
 		)
 	)
 	(global_label "HTXCN"
@@ -16580,6 +16598,21 @@
 	(rule_area
 		(polyline
 			(pts
+				(xy 193.04 80.01) (xy 196.85 80.01) (xy 196.85 114.3) (xy 193.04 114.3)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 8c003ef5-88cb-4e6b-b1fa-67f2eec93a43)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
 				(xy 248.92 81.28) (xy 259.08 81.28) (xy 259.08 93.98) (xy 248.92 93.98)
 			)
 			(stroke
@@ -16589,7 +16622,7 @@
 			(fill
 				(type none)
 			)
-			(uuid aded38dd-288e-49c4-b175-d2920df89e48)
+			(uuid 8c6b3294-9b24-4f8a-a1db-5ac78700a590)
 		)
 	)
 	(rule_area
@@ -16604,22 +16637,7 @@
 			(fill
 				(type none)
 			)
-			(uuid b933e114-1b04-4557-8eaf-24e8dbdae337)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 193.04 80.01) (xy 196.85 80.01) (xy 196.85 114.3) (xy 193.04 114.3)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid faaaee9a-2eaa-44a4-8ac0-6ec6272f0396)
+			(uuid d9aa2c62-71f6-4293-b4ef-7669738bb7a4)
 		)
 	)
 	(netclass_flag ""
@@ -16790,7 +16808,7 @@
 		(dnp no)
 		(uuid "07db9341-74de-41a7-8f97-88b47e0e5731")
 		(property "Reference" "R24"
-			(at 82.042 202.692 0)
+			(at 82.55 202.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16987,7 +17005,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V8")
-		(at 187.96 113.03 90)
+		(at 181.61 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16995,7 +17013,7 @@
 		(dnp no)
 		(uuid "0dc84034-6c4a-44af-89f9-febccd7b73bf")
 		(property "Reference" "#PWR098"
-			(at 191.77 113.03 0)
+			(at 181.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17004,7 +17022,7 @@
 			)
 		)
 		(property "Value" "VCC18-HDMI"
-			(at 184.404 113.03 0)
+			(at 181.61 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17012,7 +17030,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 113.03 0)
+			(at 181.61 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17021,7 +17039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 113.03 0)
+			(at 181.61 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17030,7 +17048,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V8\""
-			(at 187.96 113.03 0)
+			(at 181.61 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17399,7 +17417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14a106d5-de8f-45b6-b5a3-ab1d48d3a944")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0120"
 			(at 267.97 218.44 0)
 			(effects
 				(font
@@ -17450,7 +17468,7 @@
 		(instances
 			(project "Sodimm-force"
 				(path "/b3673bfd-24d8-4789-b63c-c3654dc2bb6e/7bdf4494-d64d-40da-b2e3-dae4f35a6c46"
-					(reference "#PWR0121")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -17724,15 +17742,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V8")
-		(at 64.77 104.14 90)
+		(at 64.77 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1db0a454-265a-41a9-a28b-4499be956ba4")
-		(property "Reference" "#PWR075"
-			(at 68.58 104.14 0)
+		(property "Reference" "#PWR076"
+			(at 64.77 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17741,7 +17759,7 @@
 			)
 		)
 		(property "Value" "VCC-PC"
-			(at 61.214 104.14 0)
+			(at 64.77 100.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17781,7 +17799,7 @@
 		(instances
 			(project "Sodimm-force"
 				(path "/b3673bfd-24d8-4789-b63c-c3654dc2bb6e/7bdf4494-d64d-40da-b2e3-dae4f35a6c46"
-					(reference "#PWR075")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -17797,7 +17815,7 @@
 		(dnp no)
 		(uuid "1e8eb021-6042-4f21-a5b6-bf73543cc8f3")
 		(property "Reference" "R19"
-			(at 56.642 209.042 0)
+			(at 57.15 209.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17805,7 +17823,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 56.896 210.82 0)
+			(at 57.15 211.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17988,7 +18006,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V8")
-		(at 187.96 125.73 90)
+		(at 181.61 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17996,7 +18014,7 @@
 		(dnp no)
 		(uuid "22f38342-89f5-4810-b746-087e1c31465a")
 		(property "Reference" "#PWR099"
-			(at 191.77 125.73 0)
+			(at 181.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18005,7 +18023,7 @@
 			)
 		)
 		(property "Value" "AVCC"
-			(at 184.404 125.73 0)
+			(at 181.61 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18013,7 +18031,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 125.73 0)
+			(at 181.61 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18022,7 +18040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 125.73 0)
+			(at 181.61 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18031,7 +18049,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V8\""
-			(at 187.96 125.73 0)
+			(at 181.61 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18325,15 +18343,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V8")
-		(at 264.16 95.25 270)
+		(at 270.51 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2e35e7f9-e7b8-4780-8326-59d085b8a34c")
-		(property "Reference" "#PWR0119"
-			(at 260.35 95.25 0)
+		(property "Reference" "#PWR0121"
+			(at 270.51 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18342,7 +18360,7 @@
 			)
 		)
 		(property "Value" "VCC33-EPHY"
-			(at 267.716 95.25 0)
+			(at 270.51 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18350,7 +18368,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 95.25 0)
+			(at 270.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18359,7 +18377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 95.25 0)
+			(at 270.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18368,7 +18386,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V8\""
-			(at 264.16 95.25 0)
+			(at 270.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18382,7 +18400,7 @@
 		(instances
 			(project "Sodimm-force"
 				(path "/b3673bfd-24d8-4789-b63c-c3654dc2bb6e/7bdf4494-d64d-40da-b2e3-dae4f35a6c46"
-					(reference "#PWR0119")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -18729,15 +18747,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V8")
-		(at 66.04 180.34 90)
+		(at 60.96 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "39edfaf7-3b0b-4cc9-9674-b5486f085f36")
-		(property "Reference" "#PWR076"
-			(at 69.85 180.34 0)
+		(property "Reference" "#PWR075"
+			(at 60.96 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18746,7 +18764,7 @@
 			)
 		)
 		(property "Value" "VCC-PG"
-			(at 62.484 180.34 0)
+			(at 60.96 176.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18754,7 +18772,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 180.34 0)
+			(at 60.96 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18763,7 +18781,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 180.34 0)
+			(at 60.96 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18772,7 +18790,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V8\""
-			(at 66.04 180.34 0)
+			(at 60.96 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18786,7 +18804,7 @@
 		(instances
 			(project "Sodimm-force"
 				(path "/b3673bfd-24d8-4789-b63c-c3654dc2bb6e/7bdf4494-d64d-40da-b2e3-dae4f35a6c46"
-					(reference "#PWR076")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -21991,7 +22009,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V8")
-		(at 137.16 134.62 270)
+		(at 139.7 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21999,7 +22017,7 @@
 		(dnp no)
 		(uuid "880f0f43-e81a-4367-96d6-0e852471730f")
 		(property "Reference" "#PWR087"
-			(at 133.35 134.62 0)
+			(at 139.7 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22008,7 +22026,7 @@
 			)
 		)
 		(property "Value" "VCC-IO"
-			(at 140.716 134.62 0)
+			(at 139.7 131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22016,7 +22034,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 134.62 0)
+			(at 139.7 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22025,7 +22043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 134.62 0)
+			(at 139.7 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22034,7 +22052,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V8\""
-			(at 137.16 134.62 0)
+			(at 139.7 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22202,7 +22220,7 @@
 		(dnp no)
 		(uuid "9582dc23-d718-4863-a60a-5d5a8c738771")
 		(property "Reference" "R22"
-			(at 71.882 202.692 0)
+			(at 72.39 202.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23288,7 +23306,7 @@
 		(dnp no)
 		(uuid "b26b1960-9a3e-4390-b0d4-7bfc7f20f94d")
 		(property "Reference" "R21"
-			(at 66.04 128.524 90)
+			(at 65.532 128.524 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23414,15 +23432,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V8")
-		(at 264.16 120.65 270)
+		(at 265.43 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b4ebea0f-1eab-4d9a-b78b-2977c2dac1be")
-		(property "Reference" "#PWR0120"
-			(at 260.35 120.65 0)
+		(property "Reference" "#PWR0119"
+			(at 265.43 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23431,7 +23449,7 @@
 			)
 		)
 		(property "Value" "VCC33-USB"
-			(at 267.716 120.65 0)
+			(at 265.43 117.094 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23439,7 +23457,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 120.65 0)
+			(at 265.43 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23448,7 +23466,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 120.65 0)
+			(at 265.43 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23457,7 +23475,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V8\""
-			(at 264.16 120.65 0)
+			(at 265.43 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23471,7 +23489,7 @@
 		(instances
 			(project "Sodimm-force"
 				(path "/b3673bfd-24d8-4789-b63c-c3654dc2bb6e/7bdf4494-d64d-40da-b2e3-dae4f35a6c46"
-					(reference "#PWR0120")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -23479,7 +23497,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V8")
-		(at 187.96 138.43 90)
+		(at 181.61 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23487,7 +23505,7 @@
 		(dnp no)
 		(uuid "b6ca631d-8650-44eb-b45b-19c727229766")
 		(property "Reference" "#PWR0100"
-			(at 191.77 138.43 0)
+			(at 181.61 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23496,7 +23514,7 @@
 			)
 		)
 		(property "Value" "VCC18-TV"
-			(at 184.404 138.43 0)
+			(at 181.61 134.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23504,7 +23522,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 138.43 0)
+			(at 181.61 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23513,7 +23531,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 138.43 0)
+			(at 181.61 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23522,7 +23540,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V8\""
-			(at 187.96 138.43 0)
+			(at 181.61 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23954,7 +23972,7 @@
 		(dnp no)
 		(uuid "caa8f799-4b97-494d-a5d1-f3e0438af984")
 		(property "Reference" "R20"
-			(at 64.77 113.284 90)
+			(at 64.516 113.284 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26320,7 +26338,7 @@
 		(dnp no)
 		(uuid "f06d9f9e-2920-45ab-8342-09d75050e1db")
 		(property "Reference" "R23"
-			(at 76.962 202.692 0)
+			(at 77.47 202.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
