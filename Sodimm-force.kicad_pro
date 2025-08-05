@@ -989,14 +989,14 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "DXF слои/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Sodimm-force.step",
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://gost_fixed.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -1016,7 +1016,7 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Reference",
           "name": "Reference",
           "show": true
@@ -1031,13 +1031,13 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1049,7 +1049,7 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,

@@ -279,9 +279,15 @@
       "unconnected-(X4-SBU1-PadA8)",
       "unconnected-(X5-SBU2-PadB8)",
       "unconnected-(X5-SBU1-PadA8)",
-      "Net-(D5-A)"
+      "Net-(D5-A)",
+      "Net-(DA1-EN)",
+      "unconnected-(DA1-GND-Pad2)",
+      "Net-(DA1-ADJ)",
+      "Net-(DA2-ADJ)",
+      "unconnected-(DA2-GND-Pad2)",
+      "Net-(DA2-EN)"
     ],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 2,
     "net_color_mode": 2,
     "opacity": {
       "images": 0.6,
@@ -292,17 +298,17 @@
       "zones": 0.9800000190734863
     },
     "selection_filter": {
-      "dimensions": true,
+      "dimensions": false,
       "footprints": true,
-      "graphics": true,
-      "keepouts": true,
+      "graphics": false,
+      "keepouts": false,
       "lockedItems": false,
-      "otherItems": true,
-      "pads": true,
-      "text": true,
-      "tracks": true,
-      "vias": true,
-      "zones": true
+      "otherItems": false,
+      "pads": false,
+      "text": false,
+      "tracks": false,
+      "vias": false,
+      "zones": false
     },
     "visible_items": [
       "vias",
