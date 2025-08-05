@@ -13,3 +13,21 @@
     </td>  
   </tr>
 </table>
+
+## 🎲Revisions and logs:
+<table>
+  <tr>
+    <td>
+      <strong>Revision 0</strong>
+    </td>   
+    <td>
+      <strong>10 March 2025</strong>
+    </td> 
+    <td>
+      CPU H616, DDR MT53E1G32D2FW-046
+    </td>
+    <td>
+      <font color="red">not produced</font>
+    </td>
+  </tr>
+</table>
