@@ -1,7 +1,7 @@
 # Sodimm-force rev0 <img src="https://img.shields.io/badge/KiCAD-8?logo=kicad&color=%23FF8C00" alt="KiCAD"/>
 > [!IMPORTANT]
 > Project wasn't produced and tested yet.
-### This project is an implementation of Orange Pi Zero 2W in sodimm form-factor
+### Implementation of Orange Pi Zero 2W in sodimm form-factor
 ![alt text](image.png)
 <table style="width: 100%; table-layout: fixed;">
   <tr>
@@ -32,17 +32,62 @@
   </tr>
 </table>
 
-## 🔧 Key Components
+## 🧊 What Is This Project?
 
-| Component         | Model / Type                                | Features |
-|-------------------|---------------------------------------------|----------|
-| **Processor**     | Allwinner H616                               | Quad-core ARM Cortex-A53 (64-bit), up to 1.8 GHz, Mali-G31 MP2 GPU (4K@60fps video decode) |
-| **RAM**           | Micron MT53E1G32D2FW                         | LPDDR4 4 GB, 4266 Mbps, industrial temp range (–40°C to +105°C), dual-die package |
-| **Form Factor**   | SODIMM 200-pin                               | Compact, modular design, easy integration and replacement |
-| **EEPROM**        | ST M24M02                                    | 2 Mbit, I²C interface, write protection, stores calibration and settings |
-| **microSD Slot**  | —                                            | Supports up to 32+ GB, for OS boot, data storage, and logs |
-| **Display**       | 0.96" IPS (ST7735)                           | 160×80 resolution, SPI interface, full-color, wide viewing angles |
-| **Buttons**       | 4× Tactile (KMR221GLFS)                      | For navigation and control in built-in menu system |
-| **Power Supply**  | SY8843QWC (DC-DC), SPX3819 (LDO)             | High-efficiency DC-DC + low-noise LDO for stable analog power |
-| **Interfaces**    | microHDMI, 2× USB Type-C                     | HDMI 2.0 (4K output), USB 2.0 OTG, ESD protection |
+🐾 This entire project is just my take on an embedded compute module — but built around the Allwinner H616 SoC.
 
+Not a clone. Not a dev board.  
+Just **a compact, modular, SODIMM-sized brain** for custom systems. 💡
+
+---
+
+### 🛠️ The Vision
+
+🐈 Made it to explore:
+- How far can you push a **low-cost ARM SoC** in real embedded applications?
+- Can we build something **industrial-grade**, yet **hackable and open**?
+- What if your compute unit was **as easy to swap as RAM**?
+
+So I said: *"Let’s make a tiny computer on a SODIMM."*  
+And here we are. ✨
+
+---
+
+### 🔌 Key Features (SODIMM Form Factor)
+
+- 🧩 **Modular by design** — plug into any carrier board
+- 🧠 **Allwinner H616** — Quad-core Cortex-A53, Mali-G31 GPU, 4K@60 decoding
+- 💾 **4GB LPDDR4** (Micron, automotive-grade) — fast & stable
+- 💾 **microSD slot** — boot OS, store logs, update firmware
+- 🖤 **EEPROM (ST M24M02)** — stores calibration, MAC, serials
+- 📺 **0.96" IPS display (ST7735)** — built-in UI, no external screen needed
+- 🔘 **4 tactile buttons** — navigate menus, trigger actions
+- 🔌 **microHDMI 2.0** — 4K video out
+- 🔌 **2× USB Type-C** — data, OTG, power
+- ⚡ **DC-DC + LDO power** (SY8843QWC + SPX3819) — clean, efficient, stable
+- 🛡️ **ESD protection** on all critical lines — because real world is harsh
+
+---
+
+### 🎯 Why H616?
+
+🌟 Not the most powerful.  
+🌟 Not the newest.  
+
+But:
+- ✅ **Mature Linux support** (Armbian, Debian, Buildroot)
+- ✅ **Low power & heat** — perfect for fanless, compact designs
+- ✅ **Full HDMI 2.0 + USB OTG** — rare at this price
+- ✅ **Industrial temp RAM** — works where others fail
+- ✅ **Open-ish ecosystem** — community-driven, no NDA hell
+
+---
+
+### 🧪 This Is a Prototype — Not Production
+
+- 🚧 **Revision 0** — proof of concept
+- ❌ `[x] not produced` — still not produced
+
+## **˙✧˖°📷 ༘ ⋆｡˚ Stay tuned for further updates.˙✧˖°📷 ༘ ⋆｡˚**
+
+### ***For any questions or collaborations i can be found on Telegram: [@madjogger](https://t.me/madjogger)***
